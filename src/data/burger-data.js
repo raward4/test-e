@@ -14,3 +14,22 @@ export const ingredients = [
   { name: 'Cheddar Cheese', color: '#FDE18B', type: 'cheese' },
   { name: 'Swiss Cheese', color: '#F1E1A8', type: 'cheese'},
 ]
+
+export const babyproof = [
+  { name: 'Cabinet locks', color: 'saddlebrown', type: 'bun' },
+  { name: 'Outlet covers', color: 'sandybrown', type: 'bun' },
+  { name: 'Baby gate at stairs', color: 'peru', type: 'bun' },
+  { name: 'Tioilet lit latch', color: 'olivedrab', type: 'bun' },
+  { name: 'Crib with firm mattress and free of blankets, pillows or toys', color: '#3F250B', type: 'patty' },
+  { name: 'Water heater < 120 F', color: '#3F250B', type: 'patty' },
+  { name: 'Furnitures edge coverings', color: '#3F250B', type: 'patty' },
+  { name: 'Smoke / CO Detectors', color: 'burlywood', type: 'patty' },
+  { name: 'Secure furniture with anchors', color: 'lawngreen', type: 'ing' },
+  { name: 'Put this on fridge: Poison Control 1-800-222-1222', color: 'tomato', type: 'ing' },
+  { name: 'Crawl on your floor - find more to baby proof!', color: 'maroon', type: 'ing' },
+  { name: 'Light clothing to bed, fan in room - do not let baby overheat while sleeping', color: 'lightyellow', type: 'ing' },
+  { name: 'Place to bed on back!', color: '#FDE18B', type: 'cheese' },
+  { name: 'Baby sleeps alone and not in the bed or chair with parent', color: '#F1E1A8', type: 'cheese'},
+  { name: 'Avoid smoking in house or near baby', color: '#FDE18B', type: 'cheese' },
+]
+

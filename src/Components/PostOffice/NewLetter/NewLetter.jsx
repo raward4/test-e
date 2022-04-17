@@ -42,12 +42,12 @@ const NewLetter = (props) => {
   return (
     <form className="post-office-form" onSubmit={handleSubmit}>
       <header>
-        <h3>New Letter</h3>
+        <h3>Log New Event</h3>
         <SelectBox setBoxNum={setBoxNum} boxNumbers={boxNumbers} />
         <SelectRecipient selectedBox={selectedBox} handleChange={handleChange} />
       </header>
       <section>
-        <h4>Sender</h4>
+        <h4></h4>
         <input
           required
           name="sender"
@@ -71,7 +71,7 @@ const NewLetter = (props) => {
           value={letter.content}
           onChange={handleChange}
         />
-        <button type="submit">SEND LETTER</button>
+        <button type="submit">Time-stamp and Enter</button>
       </section>
     </form>
   )
