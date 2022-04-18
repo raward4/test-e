@@ -10,6 +10,7 @@ import Landing from './Components/Landing/Landing'
 import BurgerShop from './Components/BurgerShop/BurgerShop'
 import PostOffice from './Components/PostOffice/PostOffice'
 import SuperMarket from './Components/SuperMarket/SuperMarket'
+import Resources from './Components/Resources/Resources'
 
 const App = () => {
   const [cash, setCash] = useState(100)
@@ -36,6 +37,8 @@ const App = () => {
           element={<Bank handleExchange={handleExchange} />} />
         <Route path="/postoffice/*"
           element={<PostOffice handleExchange={handleExchange} />} />
+        <Route path="/resources"
+          element={<Resources />} />
       </Routes>
     </div>
     <div id="footer"></div>
