@@ -1,11 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
-  
-const Button = (props) => {
-  return <button onClick={props.callApi}>
-   Dad Joke
-   </button>;
-}
+import Alert from "react-bootstrap/Alert";
+
+const JokeButton = (props) => {
+  return (
+      <button onClick={props.callApi}>
+      <Alert variant="success">
+        <button onClick={DadJokes}>Joke</button></Alert>
+        </button>
+        )
+};
+
 const DadJokes = () => {
     const [Joke, setJoke] = React.useState("");
   
@@ -17,10 +21,31 @@ const DadJokes = () => {
       };
     return (
         // Return the Button Component with a conditional statement
-        <div>{Joke === "" ? <Button callApi={fetchApi} /> : 
-<p>{Joke}</p>
-}</div>
+      <div>{Joke === "" ? <JokeButton callApi={fetchApi} /> : 
+        <>
+          <Alert variant="success" style={{ width: "42rem" }}>
+<Alert.Heading>
+  {Joke}
+</Alert.Heading>
+</Alert></>}     
+      </div>
       );
+
+      /*
+      <button onClick={DadJoke}</button>
+  JokeButton
+<div>
+<Alert variant="success" style={{ width: "42rem" }}>
+<Alert.Heading>
+  {Joke}
+</Alert.Heading>
+</Alert>
+</div>
+      */
 }
   
 export default DadJokes
+
+
+//<button onClick={JokeAlert}>Dad Jokes</button>
+
