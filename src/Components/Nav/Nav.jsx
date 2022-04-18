@@ -14,6 +14,7 @@ const Nav = (props) => {
       <NavLink to='/burgers'>Baby-Proofing Checklist</NavLink>
       <NavLink to='/postoffice'>My Babies</NavLink>
       <NavLink to='/resources'>Resources</NavLink>
+      <NavLink to='/dadjokes'>Dad Jokes</NavLink>
       <Wallet cash={props.cash} />
       <Clock daytime={props.daytime} setDaytime={props.setDaytime}/>
     </nav>

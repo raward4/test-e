@@ -1,21 +1,22 @@
 
 import React from "react"
-import '../../styles/App.css'
+import '../../styles/Resources.css'
 import { resources } from "../../data/resources";
 
 function Resources(props) {
   const resourcesItems = resources.map((resources) =>
-   <li key={resources.id}>
+  <li> 
     <h3> {resources.title}</h3> 
     <form action={resources.link}>
          <button type="submit">Click me</button>
     </form>
-   </li>
-  )
+  </li>)
 ;
 return (
-  <div>
-  {resourcesItems}
+  <div id="resourceL">
+    <ol>
+    {resourcesItems}
+    </ol>
   </div>
 )
 }
