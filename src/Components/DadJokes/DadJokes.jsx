@@ -2,8 +2,8 @@ import React from "react";
 
 const JokeButton = (props) => {
   return (
-      <button onClick={props.callApi}>
-        <button onClick={DadJokes}>Click for Dad Joke</button>
+      <button class='dj' onClick={props.callApi}>
+        <button class='dj' onClick={DadJokes}>Click for Dad Joke</button>
         </button>
         )
 };
@@ -19,8 +19,9 @@ const DadJokes = () => {
       };
     return (
         // Return the Button Component with a conditional statement
-      <div>{Joke === "" ? <JokeButton callApi={fetchApi} /> : 
-        <prompt>{Joke}</prompt>}</div>
+         <div class='djoke'><h1>Need a lift-me-up?</h1>
+         <div>{Joke === "" ? <JokeButton callApi={fetchApi} /> : 
+        <prompt>{Joke}</prompt>}</div></div>
     )
 }
 

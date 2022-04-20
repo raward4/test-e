@@ -3,6 +3,11 @@
   display: flex;
   flex-direction: column;
   background: #9ec3f4;
+
+}
+
+#babyimg {
+  height: 9rem;
 }
 
 .post-office form {
@@ -16,21 +21,24 @@
 
 .postoffice-layout {
   display: flex;
-  height: 100%;
-  width: 100%;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 31rem;
+  flex-direction: column;
+  align-content: center;
+  justify-content:center;
+  width: auto;
 }
 #ponav {
   border-top:0.4rem solid teal;
-  height: 20rem;
+  height: 10rem;
+  text-align: center;
+  width: auto;
 }
 .post-office nav a {
-  font-size: 3rem;
+  font-size: 1.3rem;
   font-weight: 2rem;
-  margin-left: 10px;
   background: #fbfcfd;
   letter-spacing: .25px;
   color: purple; 
@@ -49,25 +57,24 @@
 }
 
 .po-box-list {
-  margin: 10px;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  border-left: none;
   gap: 4rem;
+  display: block;
 }
 
 
 .po-box {
-  padding: 2rem;
+  padding: 0.6rem;
   height: auto;
-  width: auto;
+  width: 7rem;
   display: flex;
   color: white;
   align-items: center;
   text-decoration: none;
   justify-content: center;
   background-color: teal;
-  border-radius: 3rem;
+  border-radius: 1.2rem;
 }
 
 .post-office-form {
@@ -80,7 +87,7 @@
   justify-content: center;
   background-color: purple;
   padding: 1rem;
-  border-radius: 3rem;
+  border-radius: 1.2rem;
 }
 
 .post-office-form section {

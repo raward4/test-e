@@ -11,9 +11,9 @@ const Nav = (props) => {
       <NavLink to='/bank'>BANK</NavLink>
       <NavLink to='/market'>SUPER MARKET</NavLink>
       <NavLink to='/burgers'>Baby-Proofing Checklist</NavLink>
-      <NavLink to='/postoffice'>My Babies</NavLink>
+      <NavLink to='/postoffice'>Babies Overview</NavLink>
       <NavLink to='/resources'>Resources</NavLink>
-      <NavLink to='DadJokes'><img src={HaImg} alt="post office illustration" /></NavLink>
+      <NavLink to='DadJokes'><img id="ha" src={HaImg} alt="Dad Jokes" /></NavLink>
     <Clock daytime={props.daytime} setDaytime={props.setDaytime} />
     </nav></>
   )

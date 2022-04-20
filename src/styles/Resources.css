@@ -1,23 +1,29 @@
 #rsc {
-  display:inline-table;
+  display: inline-block;
   flex-direction: row;
-  align-items: flex-start;
+  align-items:center;
   position: relative;
   margin: 0.2rem;
   padding: 0.6rem;
-  list-style-type: georgian;
-  border: 0.4rem solid purple;
-  border-radius: 4rem;
+  border: 0.3rem solid purple;
+  border-radius: 1rem;
+  background-color: teal;
+  height: 3rem;
+  margin: 1rem;
 }
 
 #resourceL {
   margin: 7rem;
   padding: 7rem;
-  border: 0.4rem solid white;
-  border-radius: 4rem;
 }
 
 #mostofpage {
-  align-content: space-around;
+  align-content:space-around;
   background-color: rgb(154, 198, 198);
+  margin: 5rem;
+}
+
+.rscbtn {
+  background-color: rgb(112, 74, 157);
+  font-size: 0.9rem;
 }

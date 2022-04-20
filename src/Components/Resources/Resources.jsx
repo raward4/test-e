@@ -6,9 +6,9 @@ import { resources } from "../../data/resources";
 function Resources(props) {
   const resourcesItems = resources.map((resources) =>
   <li id='rsc'> 
-    <h3> {resources.title}</h3> 
+    <> {resources.title}</> 
     <form action={resources.link}>
-         <button type="submit">Click me</button>
+         <button class='rscbtn' type="submit">Click me</button>
     </form>
   </li>)
 ;
