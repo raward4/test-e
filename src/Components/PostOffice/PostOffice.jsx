@@ -58,11 +58,12 @@ const PostOffice = (props) => {
 			</div>
 			<nav id="ponav">
 				<NavLink to="/postoffice">Lobby</NavLink>
-				<NavLink to="/postoffice/letters/new">New Letter</NavLink>
+				<NavLink to="/postoffice/letters/new"><img src="/diaper.png" alt="Poop" /></NavLink>
 				<NavLink to="/postoffice/boxes/new">New PO Box</NavLink>
 			</nav>
 		</div>
 	)
+
 }
 
 export default PostOffice

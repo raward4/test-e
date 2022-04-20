@@ -1,17 +1,19 @@
-li {
-  display: block;
-  align-items: center;
-  margin: 2rem;
-  padding: 2rem;
+#rsc {
+  display:inline-table;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  margin: 0.2rem;
+  padding: 0.6rem;
   list-style-type: georgian;
-  border: 1rem solid purple;
+  border: 0.4rem solid purple;
   border-radius: 4rem;
 }
 
 #resourceL {
-  margin: 3rem;
-  padding: 3rem;
-  border: 1rem solid white;
+  margin: 7rem;
+  padding: 7rem;
+  border: 0.4rem solid white;
   border-radius: 4rem;
 }
 

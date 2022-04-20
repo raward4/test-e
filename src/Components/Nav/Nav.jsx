@@ -1,11 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
-import Wallet from "./Wallet"
+import HaImg from '../../assets/ha.png'
 import Clock from './Clock'
 import Logo from '../../assets/logo.png'
-import DadJoke from '../DadJokes/DadJokes'
-import Example from '../DadJokes/Alert'
 
 const Nav = (props) => {
   return (
@@ -16,8 +13,7 @@ const Nav = (props) => {
       <NavLink to='/burgers'>Baby-Proofing Checklist</NavLink>
       <NavLink to='/postoffice'>My Babies</NavLink>
       <NavLink to='/resources'>Resources</NavLink>
-      <NavLink to='DadJokes'>{DadJoke}</NavLink>
-    <Wallet cash={props.cash} />
+      <NavLink to='DadJokes'><img src={HaImg} alt="post office illustration" /></NavLink>
     <Clock daytime={props.daytime} setDaytime={props.setDaytime} />
     </nav></>
   )

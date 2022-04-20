@@ -9,7 +9,7 @@ const IngredientList = (props) => {
 	}, [props.stack])
 	
 	return (
-		<ul>
+		<ul className='ingred'>
 			{props.ingredients.map((ingredient, idx) => {
 				if (hasBuns && ingredient.type === 'bun') {
 					return <Ingredient list={true} disabled={true} key={idx} ingredient={ingredient} addToBurger={props.addToBurger} />
